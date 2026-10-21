@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#322e2b">
+    <title>Maram &amp; Co. | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="theme.css">
+    <script src="dynamics.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+    <a href="#home" class="brand">
+        <svg class="logo" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#c0392b"/><circle cx="12" cy="12" r="7" fill="none" stroke="#7b1d14" stroke-width="1.5"/><circle cx="12" cy="12" r="3.5" fill="none" stroke="#7b1d14" stroke-width="1.5"/></svg>
+        Maram &amp; Co.
+    </a>
+    <nav id="menu" aria-label="Main navigation">
+        <a href="#home">Home</a><a href="#service">Service</a><a href="#about">About Us</a><a href="#contact">Contact</a>
+    </nav>
+    <button id="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+</header>
+<main>
+    <section id="home" class="hero">
+        <div class="oval-frame"><div class="photo" data-photo="me.jpg" role="img" aria-label="Portrait or creative workspace"></div><svg class="star s-left" viewBox="0 0 24 24" aria-hidden="true"><use href="#star"/></svg><svg class="star s-right" viewBox="0 0 24 24" aria-hidden="true"><use href="#star"/></svg></div>
+        <div class="hero-text"><p class="tag">Maram &amp; Co. <svg class="outline-star" viewBox="0 0 24 24" aria-hidden="true"><use href="#star"/></svg><svg class="outline-star" viewBox="0 0 24 24" aria-hidden="true"><use href="#star"/></svg><svg class="outline-star" viewBox="0 0 24 24" aria-hidden="true"><use href="#star"/></svg></p><h1 class="display">Maram</h1><div class="bio-line"><p>UI/UX Designer | IT Student<br>Bahrain Polytechnic, Kingdom of Bahrain<br>Designing calm, clear and friendly digital experiences for every learner.</p></div></div>
+    </section>
+    <section id="about" class="about">
+        <div class="about-text"><h2 class="display">About me</h2><p>I am a creative and detail-oriented IT student at Bahrain Polytechnic. I am passionate about user experience, accessibility and designing interfaces that people of all abilities can enjoy.</p><p>Through my internship I work on real products, collaborate with a team of developers and designers, and keep learning from industry professionals.</p></div>
+        <div class="twin-circles"><div class="circle"><div class="photo" data-photo="me1.jpg" role="img" aria-label="Minimal creative workspace"></div></div><div class="circle"><div class="photo" data-photo="me2.jpg" role="img" aria-label="Design inspiration"></div></div></div>
+    </section>
+    <section id="service" class="center-section">
+        <h2 class="display">What I do</h2>
+        <div class="three">
+            <article><div class="ellipse"><div class="photo" data-photo="me3.jpg" role="img" aria-label="UI design workspace"></div></div><h3>UI / UX Design</h3><p>I design clean interfaces and smooth user flows that are intuitive, accessible and visually organized.</p></article>
+            <article><div class="ellipse"><div class="photo" data-photo="me4.jpg" role="img" aria-label="Web development setup"></div></div><h3>Front-End Development</h3><p>I turn designs into responsive pages using HTML, CSS and JavaScript.</p></article>
+            <article><div class="ellipse"><div class="photo" data-photo="me5.jpg" role="img" aria-label="Creative planning and notes"></div></div><h3>Problem Solving</h3><p>I break down requirements and find simple solutions that meet what users really need.</p></article>
+        </div>
+    </section>
+    <section id="skills" class="split">
+        <div class="tall-oval-frame"><div class="photo" data-photo="me5.jpg" role="img" aria-label="Designer working at a computer"></div><svg class="star s-left" viewBox="0 0 24 24" aria-hidden="true"><use href="#star"/></svg><svg class="star s-right" viewBox="0 0 24 24" aria-hidden="true"><use href="#star"/></svg></div>
+        <div class="list"><h2 class="display">Technical skills</h2><h3>Design</h3><p>Wireframing, prototyping, user flows, color and typography.</p><h3>Web Development</h3><p>Semantic HTML, responsive CSS and JavaScript basics.</p><h3>Accessibility</h3><p>Readable type, strong contrast and large tap targets for young learners.</p><h3>Teamwork</h3><p>Working with developers and other interns, and sharing clear feedback.</p></div>
+    </section>
+    <section id="projects" class="split reverse">
+        <div class="list"><h2 class="display">Project highlights</h2><div class="grid2"><div><h3>Kinderhaus</h3><p>An educational web platform for children with learning differences, built for families in the Gulf region.</p></div><div><h3>Student &amp; Parent Pages</h3><p>Designed the key screens children and parents use every day.</p></div><div><h3>UI Direction</h3><p>Shaped the overall look and feel with calm colors and simple navigation.</p></div><div><h3>Next Project</h3><p>Exploring new ideas and creating user-friendly digital experiences.</p></div></div></div>
+        <div class="round-frame"><div class="photo" data-photo="me4.jpg" role="img" aria-label="Creative digital project workspace"></div></div>
+    </section>
+    <section id="kinderhaus" class="split">
+        <div class="shots"><div class="shot a"><div class="photo" data-photo="me3.jpg" role="img" aria-label="Educational design inspiration"></div></div><div class="shot b"><div class="photo" data-photo="me2.jpg" role="img" aria-label="Digital product design"></div></div></div>
+        <div class="list"><h2 class="display">Kinderhaus</h2><p>I designed the Student and Parent pages and worked on the overall UI/UX for an educational platform for children with learning differences, aimed at the Gulf region.</p><h3>Key features</h3><ul><li>Child-friendly Student pages</li><li>Clear Parent pages</li><li>Calm, accessible design</li></ul><h3>My role</h3><ul><li>UI / UX design</li><li>Page layouts and user flow</li></ul></div>
+    </section>
+    <section id="education" class="center-section">
+        <h2 class="display">Education</h2><div class="edu"><div class="arch"><div class="photo" data-photo="me5.jpg" role="img" aria-label="Study desk"></div></div><div class="bio-line"><p>Information Technology Program<br>Institution: Bahrain Polytechnic<br>Role: UI/UX Intern, working on Kinderhaus</p></div><div class="arch"><div class="photo" data-photo="me2.jpg" role="img" aria-label="Books and study materials"></div></div></div>
+    </section>
+    <section id="contact" class="split reverse">
+        <div class="list"><h2 class="display">Contact me</h2><p class="contact-row"><span class="icon" aria-hidden="true">☎</span> +973 39141941</p><p class="contact-row"><span class="icon" aria-hidden="true">✉</span> Maram_S_Abdulaal@hotmail.com</p><p class="contact-row"><span class="icon" aria-hidden="true">⚲</span> Kingdom of Bahrain</p></div>
+        <div class="arch-frame"><div class="photo" data-photo="me.jpg" role="img" aria-label="Creative workspace with a laptop"></div><svg class="star s-left" viewBox="0 0 24 24" aria-hidden="true"><use href="#star"/></svg><svg class="star s-right" viewBox="0 0 24 24" aria-hidden="true"><use href="#star"/></svg></div>
+    </section>
+    <section id="thanks" class="thanks"><h2 class="display">Thank you</h2><p>Thank you for taking the time to review my portfolio.</p><p>I am eager to gain industry experience and keep growing as a UI/UX designer.</p><p>I look forward to contributing to meaningful projects.</p></section>
+</main>
+<footer>Maram &amp; Co. <span id="year"></span></footer>
+<div class="sunburst" aria-hidden="true"></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="star" viewBox="0 0 24 24"><path d="M12 0C12 7 17 12 24 12C17 12 12 17 12 24C12 17 7 12 0 12C7 12 12 7 12 0Z"/></symbol></svg>
+</body>
+</html>
